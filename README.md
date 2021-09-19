@@ -4,7 +4,7 @@
 Playing Around with Augmented Reality with Unity 3D and AR Foundation, Repo contains apks of CarAR, ARFood, HumanAR.
 
 
-## Details
+## Framework Details
 
 Unity's AR Foundation is a cross-platform framework that allows you to write augmented reality experiences once, then build for either Android or iOS devices without making any additional changes. The framework is available via Unity's AR Foundation package.
 
