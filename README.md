@@ -134,42 +134,13 @@ This sample demonstrates 3D world space body tracking. A 3D skeleton is generate
 
 This sample requires a device with an A12 bionic chip running iOS 13.
 
-## DepthImages
 
-This sample demonstrates raw texture depth images from different methods.
-* Environment depth (certain Android devices and Apple devices with the LiDAR sensor)
-* Human stencil (Apple devices with an A12 bionic chip (or later) running iOS 13 or later)
-* Human depth (Apple devices with an A12 bionic chip (or later) running iOS 13 or later)
 
-## SimpleOcclusion
 
-This sample demonstrates occlusion of virtual content by real world content through the use of environment depth images on supported Android and iOS devices.
 
-## AllPointCloudPoints
 
-This sample shows all feature points over time, not just the current frame's feature points as the "AR Default Point Cloud" prefab does. It does this by using a slightly modified version of the `ARPointCloudParticleVisualizer` component that stores all the feature points in a Dictionary. Since each feature point has a unique identifier, it can look up the stored point and update its position in the dictionary if it already exists. This can be a useful starting point for custom solutions that require the entire map of point cloud points, e.g., for custom mesh reconstruction techniques.
 
-This sample has two UI components:
-* A button in the lower left which allows you to switch between visualizing "All" the points and just those in the "Current Frame".
-* Text in the upper right which displays the number of points in each point cloud (ARCore & ARKit will only ever have one).
 
-## CameraGrain
-
-This sample demonstrates the camera grain effect. Once a plane is detected, you can place a cube on it with a material that simulates the camera grain noise in the camera feed. See the `CameraGrain.cs` script. Also see  `CameraGrain.shader` which animates and applies the camera grain texture (through linear interpolation) in screenspace.
-
-This sample requires a device running iOS 13 and Unity 2020.2 or later.
-
-## Meshing
-
-These meshing scenes use features of some devices to construct meshes from scanned data of real world surfaces. These meshing scenes will not work on all devices.
-
-For ARKit, this functionality requires at least iPadOS 13.4 running on a device with a LiDAR scanner.
-
-### ClassificationMeshes
-
-This scene demonstrates mesh classification functionality. With mesh classification enabled, each triangle in the mesh surface is identified as one of several surface types. This sample scene creates submeshes for each classification type and renders each mesh type with a different color.
-
-This scene only works on ARKit.
 
 
 
