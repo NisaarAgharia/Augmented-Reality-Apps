@@ -17,23 +17,6 @@ Playing Around with Augmented Reality with Unity 3D and AR Foundation, Repo cont
 <img align="left"  src="https://user-images.githubusercontent.com/22457544/138648231-0c1571f8-4ed2-4abb-9278-9730be98f426.gif">
 <br />
 
-## ARSubsystems
-
-ARFoundation is built on "[subsystems](https://docs.unity3d.com/2020.3/Documentation/ScriptReference/Subsystem.html)" and depends on a separate package called [ARSubsystems](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.2/manual/index.html). ARSubsystems defines an interface, and the platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.2/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.2/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
-
-
-## Instructions for installing AR Foundation
-
-1. Download the latest version of Unity 2020.3 or later.
-
-2. Open Unity, and load the project at the root of the *arfoundation-samples* repository.
-
-3. Open your choice of sample scene.
-
-4. See the [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html) for usage instructions and more information.
-
-# Samples
-
 ## SimpleAR
 
 This is a good starting sample that enables point cloud visualization and plane detection. There are buttons on screen that let you pause, resume, reset, and reload the ARSession.
